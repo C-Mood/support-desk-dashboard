@@ -45,4 +45,4 @@ This structure allows the data layer to be easily replaced with a real backend A
 
 ---
 
-Built as part of my frontend software engineering journey to practice real-world UI patterns and JavaScript architecture.
+Built throughout my fullstack software engineering journey to practice real world UI patterns and JavaScript architecture.

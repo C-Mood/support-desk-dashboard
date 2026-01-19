@@ -29,19 +29,19 @@ const titleInput = document.querySelector("#titleInput");
 const descInput = document.querySelector("#descInput");
 const priorityInput = document.querySelector("#priorityInput");
 
-// ----- STATE -----
+// STATE
 let tickets = loadTickets() ?? seedTickets;
 let ui = loadUI();
 let selectedId = null;
 
-// ----- INIT UI -----
+//INIT UI
 searchInput.value = ui.search;
 statusFilter.value = ui.status;
 sortBy.value = ui.sortBy;
 
 render();
 
-// ----- EVENTS -----
+//EVENTS
 searchInput.addEventListener("input", () => {
   ui.search = searchInput.value.trim();
   saveUI(ui);
@@ -106,8 +106,8 @@ toggleStatusBtn.addEventListener("click", () => {
       t.status === "open"
         ? "pending"
         : t.status === "pending"
-        ? "resolved"
-        : "open";
+          ? "resolved"
+          : "open";
     return { ...t, status: next };
   });
 
@@ -125,7 +125,7 @@ deleteTicketBtn.addEventListener("click", () => {
   render();
 });
 
-// ----- RENDER -----
+// RENDER
 function getVisibleTickets() {
   const search = ui.search.toLowerCase();
 
@@ -188,7 +188,7 @@ function renderDetails() {
   detailsCreated.textContent = formatDate(ticket.createdAt);
 }
 
-// ----- MODAL -----
+// MODAL
 function openModal() {
   modal.classList.remove("hidden");
   titleInput.focus();

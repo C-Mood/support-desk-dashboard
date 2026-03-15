@@ -26,21 +26,14 @@ Architecture Notes
 
 The application is structured using separation of concerns:
 
-- `data.js` — seed/mock ticket data
-- `storage.js` — persistence layer (localStorage)
-- `ui.js` — DOM creation and formatting
-- `app.js` — application state, events, and rendering logic
+data.js — seed/mock ticket data
+storage.js — persistence layer (localStorage)
+ui.js— DOM creation and formatting
+app.js — application state, events, and rendering logic
 
 This structure allows the data layer to be easily replaced with a real backend API in the future.
 
-Run Locally
-
-1. Clone the repository
-2. Open the project in VS Code
-3. Launch `index.html` using Live Server
-Live Demo
-
-_(Add GitHub Pages link here once deployed)_
+(https://c-mood.github.io/support-desk-dashboard/)
 
 Future Improvements
 

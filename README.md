@@ -1,9 +1,9 @@
-# Support Desk Dashboard 🛠️
+Support Desk Dashboard 
 
-A frontend support ticket dashboard built with **vanilla HTML, CSS, and JavaScript**.  
+A frontend support ticket dashboard built with vanilla HTML, CSS, and JavaScript**.  
 This project simulates a real internal support tool with ticket management, filtering, and persistent state — without using frameworks.
 
-## Features
+Features
 
 - Create, view, and delete support tickets
 - Search tickets by title or description
@@ -11,9 +11,9 @@ This project simulates a real internal support tool with ticket management, filt
 - Sort tickets by date or priority
 - Ticket detail panel with status updates
 - Modal form with validation
-- Persistent data using **localStorage**
+- Persistent data using localStorage
 
-## Tech Stack
+Tech Stack
 
 - HTML
 - CSS
@@ -22,9 +22,9 @@ This project simulates a real internal support tool with ticket management, filt
 - localStorage
 - Git & GitHub
 
-## Architecture Notes
+Architecture Notes
 
-The application is structured using **separation of concerns**:
+The application is structured using separation of concerns:
 
 - `data.js` — seed/mock ticket data
 - `storage.js` — persistence layer (localStorage)
@@ -33,17 +33,16 @@ The application is structured using **separation of concerns**:
 
 This structure allows the data layer to be easily replaced with a real backend API in the future.
 
-## Run Locally
+Run Locally
 
 1. Clone the repository
 2. Open the project in VS Code
-3. Launch `index.html` using **Live Server**
-
-## Live Demo
+3. Launch `index.html` using Live Server
+Live Demo
 
 _(Add GitHub Pages link here once deployed)_
 
-## Future Improvements
+Future Improvements
 
 - Edit ticket functionality
 - Authentication simulation

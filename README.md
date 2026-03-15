@@ -1,7 +1,7 @@
 Support Desk Dashboard 
 
-A frontend support ticket dashboard built with vanilla HTML, CSS, and JavaScript**.  
-This project simulates a real internal support tool with ticket management, filtering, and persistent state — without using frameworks.
+A frontend support ticket dashboard built with vanilla HTML, CSS, and JavaScript.  
+This project simulates a real internal support tool with ticket management, filtering, and persistent state without using frameworks.
 
 Features
 
@@ -26,10 +26,10 @@ Architecture Notes
 
 The application is structured using separation of concerns:
 
-data.js — seed/mock ticket data
-storage.js — persistence layer (localStorage)
-ui.js— DOM creation and formatting
-app.js — application state, events, and rendering logic
+•data.js — seed/mock ticket data
+•storage.js — persistence layer (localStorage)
+•ui.js— DOM creation and formatting
+•app.js — application state, events, and rendering logic
 
 This structure allows the data layer to be easily replaced with a real backend API in the future.
 

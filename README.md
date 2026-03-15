@@ -33,7 +33,7 @@ The application is structured using **separation of concerns**:
 
 This structure allows the data layer to be easily replaced with a real backend API in the future.
 
-## ▶Run Locally
+## Run Locally
 
 1. Clone the repository
 2. Open the project in VS Code
